@@ -37,6 +37,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'home'
 ]
 
 MIDDLEWARE = [
@@ -54,7 +55,7 @@ ROOT_URLCONF = 'proyectoPersona.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': [r'C:\Users\User\Documents\UNLAM\ZCODERHOUSE\Proyecto\proyecto_personas\proyectoPersona\templates'],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

@@ -19,5 +19,6 @@ from . import views
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('hola/', views.hola),
+    path('ver-familiares/', views.ver_familiares),
+    path('crear-familiar/<str:nombre>/<str:apellido>/', views.crear_familiar),
 ]
